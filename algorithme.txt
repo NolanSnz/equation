@@ -1,11 +1,14 @@
 Debut
     Saisie de a, b, c
-    Calculer d = b2-4ac
+    Calculer d = b² - 4ac
     Si d > 0
-        ....
+        x1 <- (-b - racine(d)) / (2a)
+        x2 <- (-b + racine(d)) / (2a)
+        Afficher "L'equation admet deux solutions reelles : x1 = ", x1, " et x2 = ", x2
     Sinon, si d < 0
-        ....
-    Sinon (d=0)
-        ....
+        Afficher "L'equation n'admet aucune solution reelle"
+    Sinon (d = 0)
+        x0 <- -b / (2a)
+        Afficher "L'equation admet une solution unique (double) : x0 = ", x0
     FinSi
-    d
+Fin
