@@ -8,3 +8,4 @@ Debut
     Sinon (d=0)
         ....
     FinSi
+    d
